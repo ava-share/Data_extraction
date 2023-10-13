@@ -11,21 +11,21 @@ Trajectory extraction from yolo detection
 * required code: tracking.ipynb
 * Need to change the dir
   
-'''
+```
 #INPUT
 bboxDirectory = 'yolo_frames/'  # Detection Images Directory (Text Files)
 
 #OUTPUT
 outputDirectory = 'yolo_tracking/' # Output Directory of Tracking files
-'''
+```
 
 ## Step 4: Trajectory extraction
 * required code: trajectory_extraction.ipynb
 
-'''
+```
 #INPUT
 trackingAnnotationDirectory = 'yolo_tracking/
-'''
+```
 
 ## Step 5: Data cleaning and plotting
 * required code: clean_plot.ipynb
